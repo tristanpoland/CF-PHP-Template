@@ -1,0 +1,10 @@
+---
+applications:
+- name: my-php-app
+  memory: 128M
+  instances: 1
+  random-route: true
+  buildpacks:
+    - php_buildpack
+  env:
+    BP_PHP_VERSION: 8.0

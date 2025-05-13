@@ -1,0 +1,7 @@
+{
+    "name": "my-php-app",
+    "description": "Simple PHP app for Cloud Foundry",
+    "require": {
+        "php": ">=8.0"
+    }
+}
